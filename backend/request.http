@@ -1,0 +1,17 @@
+# Listagem de permissões
+get http://localhost:3001/permissions
+
+# Criação de usuário
+
+post http://localhost:3001/auth/create/user/web
+Content-Type: application/json
+
+{
+    "name": "Cloves José",
+    "birth_date": "02/04/1997",
+    "email": "clovesjsilva8@gmail.com",
+    "password": "abc!@#123",
+    "permission_id": "8671d622-dbf4-4a46-93d7-4d59b2c7c389"
+}
+
+# Criação de categoria
